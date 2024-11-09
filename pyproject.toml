@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ml-test-project"
+version = "0.1.0"
+description = "Testing automating creation of ML projects."
+authors = ["JonasCStromgren <82583251+JonasCStromgren@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+numpy = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
